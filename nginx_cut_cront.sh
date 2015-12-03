@@ -19,6 +19,7 @@
 #===============================================================================
 
 set -o nounset                              # Treat unset variables as an error
+#only get nginx pid
 pid=$(ps -ef |grep master | egrep -v "(grep|php-fpm)" | awk '{print $2}')
 TMP_FILE="/var/log/nginx/"
 MKTMP=$(mktemp $TMP_FILE${pid}.XXXXXX)
