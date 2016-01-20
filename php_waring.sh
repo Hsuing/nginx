@@ -2,7 +2,7 @@
 #Wed Jan 20 15:32:53 CST 2016
 #author Han
 
-MAIL=hxopensource@163.com
+MAIL=xxxxxx@163.com
 LOG=/var/log/nginx/error.log
 PHP_ERROR_LOG=/home/trustone/monitor_scripts/php_log.txt
 PHP_RECORD=php_record.txt
